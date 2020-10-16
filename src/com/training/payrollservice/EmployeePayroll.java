@@ -27,10 +27,4 @@ public class EmployeePayroll {
 
         return new EmployeePayroll(id,salary,name);
     }
-
-    public static void main(String[] args) {
-        System.out.println("Welcome to Employee Payroll ");
-        EmployeePayroll employee = EmployeePayroll.addEmployee();
-
-    }
 }
