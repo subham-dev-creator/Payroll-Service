@@ -1,18 +1,19 @@
-package com.training.payrollservice;
+package com.training.payrollservice.test;
 
-import static org.junit.Assert.*;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.stream.IntStream;
 import java.nio.file.Files;
 
+import com.training.payrollservice.main.FileUtils;
+import com.training.payrollservice.main.WatcherService;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class IOFileAPITest {
     public static final String HOME = System.getProperty("user.home");
-    public static final String PLAY_WITH_FILE = "TempFiles";
+    public static final String PLAY_WITH_FILE = "IdeaProjects\\Payroll-Service\\TempFiles";
 
     @Test
     public void givenPathWhenCheckedThenConfirm() throws IOException {
@@ -42,6 +43,4 @@ public class IOFileAPITest {
                 .forEach(System.out::println);
 
     }
-
-
 }

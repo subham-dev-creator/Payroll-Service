@@ -1,6 +1,5 @@
-package com.training.payrollservice;
+package com.training.payrollservice.main;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class EmployeePayroll {
