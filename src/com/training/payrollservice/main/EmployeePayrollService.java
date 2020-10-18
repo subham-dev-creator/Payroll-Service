@@ -32,12 +32,4 @@ public class EmployeePayrollService {
             return new EmployeePayrollServiceIOFile().countEntries();
         return 0;
     }
-
-    public static void main(String[] args) {
-        System.out.println("Welcome to Employee Payroll ");
-        EmployeePayrollService service = new EmployeePayrollService();
-
-        service.employeeList.add(EmployeePayroll.addEmployee());
-
-    }
 }
